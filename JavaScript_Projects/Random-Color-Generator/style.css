@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 44px;
+
+}
+
+.box {
+    width: 65px;
+    height: 65px;
+    border: 1px solid black;
+    margin: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
