@@ -28,6 +28,7 @@ body {
 }
 
 .card-cell-1 {
+    position: relative;
     display: flex;
     align-items: center;
     padding-left: 22px;
@@ -36,6 +37,15 @@ body {
 .card-cell-1 img {
     width: 223px;
     border-radius: 11px;
+}
+.video-duration{
+    position: absolute;
+    bottom: 12%;
+    right: 5%;
+    padding: 3px;
+    border-radius: 3px;
+    color: white;
+    background-color: #1b1818af;
 }
 
 .card-cell-2 {
